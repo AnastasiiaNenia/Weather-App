@@ -8,10 +8,6 @@ function formatDate(date) {
     minutes = `0${minutes}`;
   }
 
-  function doStuff() {
-    console.log("nice stuff");
-  }
-
   let dayIndex = date.getDay();
   let days = [
     "Sunday",
